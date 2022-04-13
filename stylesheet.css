@@ -1,44 +1,44 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
-    height: 100vh;
-    position: relative;
+  height: 100vh;
+  position: relative;
 }
 
 .container {
-    border: 1px solid red;
-    border-radius: 4%;
-    width: 336px;
-    height: 236px;
-    position: absolute;
-    left: 40%;
-    top: 30%;
-    transform: translate(-50% -50%);
+  border: 1px solid red;
+  border-radius: 4%;
+  width: 336px;
+  height: 236px;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  transform: translate(-50% -50%);
 }
 
 .header {
-    background-color: #FFDC40;
-    width: 100%;
-    height: 28px;
-    /* border-radius: 10%; */
+  background-color: #ffdc40;
+  width: 100%;
+  height: 28px;
+  /* border-radius: 10%; */
 }
 
 h1 {
-    /* border: 1px solid blue; */
-    width: 164px;
-    height: 34px;
-    margin-top: 17px;
-    margin-right: 87px;
-    margin-left: 85px;
-    margin-bottom: 39px;
+  /* border: 1px solid blue; */
+  width: 164px;
+  height: 34px;
+  margin-top: 17px;
+  margin-right: 87px;
+  margin-left: 85px;
+  margin-bottom: 39px;
 }
 
-#new-task-input {
-    border: 1px solid violet;
-    border-radius: 5%;
+.add-new-task-button {
+  color: #833ae0;
+  border-radius: 10%;
 }

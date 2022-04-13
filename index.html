@@ -1,30 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do List Tracker</title>
-    <link rel="stylesheet" href="stylesheet.css">
-</head>
-<body>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="header"></div>
-        <h1>To-Do List</h1>
-        <img id="inactive-down-arrow" src="/images/inactive-down-arrow.png" alt="inactive-down-arrow">
-        <form>
-            <input 
-                type="text" 
-                id="new-task-input" 
-                placeholder="Add new task">
-            <input 
-                type="submit"
-                id="new-task-submit"
-                value="Add">
-        </form> 
+      <div class="header"></div>
+      <h1>To-Do List</h1>
+      <img
+        id="inactive-down-arrow"
+        src="/images/inactive-down-arrow.png"
+        alt="inactive-down-arrow"
+      />
+      <img
+        id="inactive-up-arrow"
+        src="images/inactive-up-arrow.png"
+        alt="inactive-up-arrow"
+      />
+      <img
+        id="active-down-arrow"
+        src="/images/active-down-arrow.png"
+        alt="active-down-arrow"
+      />
+      <img
+        id="active-up-arrow"
+        src="/images/active-up-arrow.png"
+        alt="active-up-arrow"
+      />
+      <form>
+        <input type="text" id="new-task-input" placeholder="New task" />
+        <img
+          id="inactive-remove-button"
+          src="/images/inactive-remove-button.png"
+          alt="inactive-remove-button"
+        />
+        <img
+          id="active-remove-button"
+          src="/images/active-remove-button.png"
+          alt="active-remove-button"
+        />
+        <div class="add-new-task-button">
+          <button>+ Add</button>
+        </div>
+      </form>
     </div>
 
-
     <script src="/script.js"></script>
-</body>
+  </body>
 </html>
