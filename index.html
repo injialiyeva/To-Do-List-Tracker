@@ -10,7 +10,8 @@
   <body>
     <div class="container">
       <div class="header"></div>
-      <h1>To-Do List</h1>
+        <h1>To-Do List</h1>
+      <div class="arrow-images">
       <img
         id="inactive-down-arrow"
         src="/images/inactive-down-arrow.png"
@@ -31,9 +32,11 @@
         src="/images/active-up-arrow.png"
         alt="active-up-arrow"
       />
+    </div>
       <form>
         <input type="text" id="new-task-input" placeholder="New task" />
-        <img
+        <div class="remove-buttons">
+            <img
           id="inactive-remove-button"
           src="/images/inactive-remove-button.png"
           alt="inactive-remove-button"
@@ -43,12 +46,22 @@
           src="/images/active-remove-button.png"
           alt="active-remove-button"
         />
-        <div class="add-new-task-button">
-          <button>+ Add</button>
+        </div>
+
+        <div>
+          <button>
+              <div class="add-new-task-button">
+                <ion-icon id="plus-icon" name="add-outline"></ion-icon>
+                <h5>Add</h5>
+              </div>
+          </button>
         </div>
       </form>
     </div>
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="/script.js"></script>
   </body>
 </html>
+
