@@ -5,63 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do List Tracker</title>
+    <link rel="icon" href="/images/card-checklist.svg" />
     <link rel="stylesheet" href="stylesheet.css" />
   </head>
   <body>
     <div class="container">
       <div class="header"></div>
-        <h1>To-Do List</h1>
-      <div class="arrow-images">
-      <img
-        id="inactive-down-arrow"
-        src="/images/inactive-down-arrow.png"
-        alt="inactive-down-arrow"
-      />
-      <img
-        id="inactive-up-arrow"
-        src="images/inactive-up-arrow.png"
-        alt="inactive-up-arrow"
-      />
-      <img
-        id="active-down-arrow"
-        src="/images/active-down-arrow.png"
-        alt="active-down-arrow"
-      />
-      <img
-        id="active-up-arrow"
-        src="/images/active-up-arrow.png"
-        alt="active-up-arrow"
-      />
-    </div>
-      <form>
-        <input type="text" id="new-task-input" placeholder="New task" />
-        <div class="remove-buttons">
-            <img
-          id="inactive-remove-button"
-          src="/images/inactive-remove-button.png"
-          alt="inactive-remove-button"
-        />
+
+      <h1>To-Do List</h1>
+
+      <button class="sort-buttons">
         <img
-          id="active-remove-button"
-          src="/images/active-remove-button.png"
-          alt="active-remove-button"
+          class="mintomax-button"
+          id="inactive-down-arrow"
+          src="/images/inactive-down-arrow.png"
+          alt=""
         />
+      </button>
+
+      <form>
+        <div class="todo-list" id="to-do-div">
+          <div class="to-do">
+            <input
+              type="text"
+              class="input"
+              id="input-task"
+              placeholder="Type new task"
+            />
+            <button class="delete-buttons"></button>
+          </div>
         </div>
 
-        <div>
-          <button>
-              <div class="add-new-task-button">
-                <ion-icon id="plus-icon" name="add-outline"></ion-icon>
-                <h5>Add</h5>
-              </div>
-          </button>
-        </div>
+        <button type="submit" class="add-button">
+          <div class="plus-sign"><span>+</span></div>
+          <p>Add</p>
+        </button>
       </form>
     </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="/script.js"></script>
   </body>
 </html>
-

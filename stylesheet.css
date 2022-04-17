@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   margin: 0;
@@ -7,35 +7,25 @@
   text-decoration: none;
 }
 
-body {
-  height: 100vh;
-  position: relative;
-}
-
 .container {
-  /* border: 1px solid #C4C4C4; */
-  border: 1px solid red;
+  border: 1px solid #c4c4c4;
   border-radius: 20px;
   width: 336px;
   height: auto;
-  position: absolute;
-  left: 40%;
-  top: 30%;
-  transform: translate(-50% -50%);
+  margin: 232px auto;
 }
 
 .header {
   background-color: #ffdc40;
-  width: 335px;
+  width: 334px;
   height: 28px;
-  margin-left: -0.7px;
-  margin-top: -0.5px;
-  border-radius: 20px 20px 0px 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  border-radius: 19px 19px 0px 0px;
 }
 
 h1 {
-  /* border: 1px solid blue; */
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 26px;
@@ -47,78 +37,92 @@ h1 {
   margin: 13px 69px 16px;
 }
 
-.arrow-images {
-  margin: 12px 30px 12px 281px;
+input {
+  border: 0;
+  width: 224.3px;
+  height: 38px;
+  margin-left: 35px;
+  outline: none;
 }
 
-#inactive-up-arrow {
-  display: none;
-}
-
-#active-down-arrow {
-  display: none;
-}
-
-#active-up-arrow {
-  display: none;
-}
-
-#active-remove-button {
-  display: none;
-}
-
-.remove-buttons {
-  border: 1px solid green;
-  width: 20px;
-  height: 20px;
-  /* margin: 10px 10px 10px 236px; */
-  margin-left: 79%;
-  margin-top: -15%;
-}
-
-button {
-  border: none;
-  width: 150px;
-  height: 42px;
-  border-radius: 71px;
-  margin: 30px 94px 19px 92px;
-}
-
-.add-new-task-button {
-  border: 1px solid blue;
-  background-color: #833AE0;
-  width: 150px;
-  height: 42px;
-  border-radius: 71px;
-  /* margin: 18px 94px 19px 92px; */
-  border: none;
-}
-
-#plus-icon {
-  background-color: #9953F1;
-  color: white;
-  width: 42px;
-  height: 42px;
-  border-radius: 71px;
-  border: none;
-  margin-right: 120px;
-} 
-
-h5 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-size: 20px;
-  color: white;
-  margin-top: -35px;  
-  margin-left: 16px;
-}
-
-#new-task-input {
+.input-div {
+  /* display: flex; */
+  margin-top: 11px;
   width: 286px;
   height: 40px;
-  border: 1px solid red; /* C4C4C4 */
+  border: 1px solid #c4c4c4;
   border-radius: 10px;
-  margin-bottom: 18px;
-  margin-left: 28px;
-  margin-right: 22px;
+  margin-left: 27.83px;
+}
+
+.todo-list {
+  height: auto;
+  width: 290px;
+  margin: 0 auto;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.add-button {
+  margin: 20.65px 0 23px 91.72px;
+  border: 0;
+  background-color: white;
+  width: 150px;
+  height: 42px;
+  background: #9953f1;
+  border-radius: 71px;
+}
+
+.delete-buttons {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  background-image: url(/images/inactive-delete-button.png);
+  padding-bottom: 5px;
+  margin-left: -22px;
+}
+
+.delete-buttons:hover {
+  background-image: url(/images/active-delete-button.png);
+}
+
+.sort-buttons {
+  border: none;
+  background-color: white;
+  width: 25px;
+  height: 15px;
+  margin-left: 281px;
+  margin-bottom: 12px;
+}
+
+.plus-sign {
+  padding-top: 13px;
+  margin-top: -12px;
+  width: 42px;
+  height: 42px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #aa68fe;
+  border-radius: 50%;
+}
+
+p {
+  margin-left: 70px;
+  margin-top: -29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
 }
