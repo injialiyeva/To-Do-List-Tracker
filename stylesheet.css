@@ -87,7 +87,7 @@ input {
   background-image: url(/images/active-delete-button.png);
 }
 
-.sort-buttons {
+.sorting {
   border: none;
   background-color: white;
   width: 25px;
