@@ -41,18 +41,8 @@ input {
   border: 0;
   width: 224.3px;
   height: 38px;
-  margin-left: 35px;
+  margin-left: 27px;
   outline: none;
-}
-
-.input-div {
-  /* display: flex; */
-  margin-top: 11px;
-  width: 286px;
-  height: 40px;
-  border: 1px solid #c4c4c4;
-  border-radius: 10px;
-  margin-left: 27.83px;
 }
 
 .todo-list {
@@ -98,9 +88,9 @@ input {
 
 .plus-sign {
   padding-top: 13px;
-  margin-top: -12px;
+  margin-top: -12.5px;
   width: 42px;
-  height: 42px;
+  height: 41.5px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
