@@ -1,8 +1,8 @@
 let form = document.querySelector("form"); //form
 let todoDiv = document.getElementById("to-do-div"); //todos
 let todoList = document.querySelector(".todo-list"); //firstToDo
-let sortButton = document.querySelector(".mintomax-button"); //sort
-let sortImg = document.querySelector(".mintomax-button"); //img
+let sortButton = document.querySelector(".mintomax"); //sort
+let sortImg = document.querySelector(".mintomax"); //img
 
 form.addEventListener("submit", (event) => {
   todoDiv.innerHTML += `<div class="to-do">
@@ -10,6 +10,7 @@ form.addEventListener("submit", (event) => {
     type="text" 
     class="input"
     id="input-task"
+    placeholder="Type new task"
     />
     <button class="delete-buttons"></button>
   </div>`;
@@ -43,13 +44,14 @@ sortButton.addEventListener("click", sortTasks);
 
 let index = 0;
 function sortTasks(el) {
+  let input = document.querySelector(".input");
   let arr = [];
   input.forEach((i) => {
-    arr.push(item.value.trim());
+    arr.push(i.value.trim());
   });
 
   if (index == 0) {
-    sortImg.src = "images/active-down-arrow.png";
+    sortImg.src = "/images/active-down-arrow.png";
     arr.sort((a, b) => {
       if (a > b) {
         return 1;
@@ -61,7 +63,7 @@ function sortTasks(el) {
     });
     index++;
   } else {
-    sortImg.src = "images/active-up-arrow.png";
+    sortImg.src = "/images/active-up-arrow.png";
     arr.sort((a, b) => {
       if (a > b) {
         return -1;
@@ -82,6 +84,7 @@ function sortTasks(el) {
     type="text" 
     class="input"
     id="input-task"
+    placeholder="Type new task"
     value="${item}"
     />
     <button class="delete-buttons"></button>
