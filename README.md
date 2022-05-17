@@ -1,6 +1,8 @@
 # To-Do-List-Tracker
 
-Algoritmika BootCamp 2022 - Veb Tərtibatçılıq - Modul 2. Layihə "Task Tracker" proqramının tərtibatı.
+Algoritmika BootCamp 2022 - Veb Tərtibatçılıq - Modul 2. 
+
+Layihə: "Task Tracker" proqramının tərtibatı.
 
 Mətn formatında olan kiçik tapşırıqları qeyd etmək üçün olab Task Tracker proqramını hazırlamalı. 
 
