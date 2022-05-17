@@ -11,4 +11,4 @@ Siyahının aşağı hissəsində «Əlavə et» düyməsi mövcuddur. Onun üz�
 Siyahının üstündə çeşidlə düyməsi mövcuddur. Onun üzərinə kliklədiyiniz zaman qeydlər əlifba sırası ilə sıralanır. Yenidən üzərinə kliklənməsi sıranın əlifba sırasının əksinə ardıcıllıqla sıralayır. Hər klikdən sonra düymə öz vəziyyətini dəyişir, istifadəçiyə çeşidləmənin hansı ardıcıllıqla (irəli və ya geri) aparılacağını göstərir.
 Çeşidləmə, əlavə etmə və silmə düymələri mouse - un hover əməliyyatına reaksiya verir.
 
-Netlify link: 
+Netlify link: https://to-do-list-tracker.netlify.app/
