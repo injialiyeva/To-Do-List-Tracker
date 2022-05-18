@@ -1,18 +1,17 @@
-# To-Do-List-Tracker
+# To-Do List Tracker
 
-Algoritmika BootCamp 2022 - Veb Tərtibatçılıq 
+ ![image](https://user-images.githubusercontent.com/70857147/169120398-49e18a17-b5ec-415f-acaf-1e2c2feee628.png)
 
-Modul 2: JavaScript
+- User stories: 
 
-Layihə: "Task Tracker" proqramının tərtibatı.
+    - 
+    - 
 
-Mətn formatında olan kiçik tapşırıqları qeyd etmək üçün olab Task Tracker proqramını hazırlamalı. 
+- Stack: 
+    - HTML
+    - CSS
+    - JavaScript
+    - Figma
 
-Proqram siyahıya tapşırıqları əlavə etmək, dəyişdirmək və silmək, həmçinin əlifba sırası ilə sıralamaq qabiliyyətini dəstəkləməlidir.
-Hər bir giriş sahəsi klaviaturadan ixtiyari mətn sətirini yaza biləcəyiniz bir sətirlik ölçüdə yerdən ibarətdir. 
-Hər bir qeyddə sil düyməsi mövcuddur.
-Siyahının aşağı hissəsində «Əlavə et» düyməsi mövcuddur. Onun üzərinə kliklədiyiniz zaman siyahının sonuna yeni bir boş qeyd əlavə olunur.
-Siyahının üstündə çeşidlə düyməsi mövcuddur. Onun üzərinə kliklədiyiniz zaman qeydlər əlifba sırası ilə sıralanır. Yenidən üzərinə kliklənməsi sıranın əlifba sırasının əksinə ardıcıllıqla sıralayır. Hər klikdən sonra düymə öz vəziyyətini dəyişir, istifadəçiyə çeşidləmənin hansı ardıcıllıqla (irəli və ya geri) aparılacağını göstərir.
-Çeşidləmə, əlavə etmə və silmə düymələri mouse - un hover əməliyyatına reaksiya verir.
 
-Netlify link: https://to-do-list-tracker.netlify.app/
+- [Link Preview](https://to-do-list-tracker.netlify.app/)
